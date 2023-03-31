@@ -1,0 +1,199 @@
+/* .offer {
+    animation: circularAnimation 3s linear infinite;
+    animation-iteration-count: 3;
+    position: relative;
+} */
+
+.iconHead {
+    position: relative;
+}
+
+.iconSpan {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 0.3rem;
+    /* z-index: 2; */
+}
+
+.offerIcon {
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+    background-position: -5px -242px;
+}
+
+.myBizIcon {
+    width: 44px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: -98px -491px;
+    background-size: 200px 700px;
+}
+
+.myTrip {
+    width: 16px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: -122px -30px;
+    background-size: 200px 700px;
+}
+
+.profile {
+    padding: 11px 12px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    background-size: 200px 700px;
+}
+
+.language {
+    height: 12px;
+    width: 15px;
+    background-size: 16px 74px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.topnavRight {
+    border-right: 1px solid rgb(98, 111, 124);
+    height: 35px;
+}
+
+.topnavRightNone {
+    border-right: none;
+    height: 35px;
+}
+
+
+.flagBox {
+    margin: 5px 3px;
+    background-color: hsl(0deg 0% 100% / 15%);
+}
+
+
+/* ! mid nav */
+.midNav {
+    display: flex;
+    align-items: center;
+    height: 79px;
+    justify-content: center;
+    position: absolute;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+}
+
+.midNavul {
+    width: fit-content;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+}
+
+.iconSize {
+    height: 34px;
+    width: 40px;
+    background-size: 300px 400px;
+}
+
+.flight {
+    background-position: -4px -37px;
+}
+
+.hotels {
+    background-position: -50px -37px;
+}
+
+.homeStays {
+    background-position: -105px -153px;
+}
+
+.holiday {
+    background-position: -70px -235px;
+    height: 34px;
+    width: 46px;
+}
+
+.railway {
+    background-position: -179px -37px;
+}
+
+.buses {
+    background-position: -121px -38px;
+    width: 25px;
+}
+
+.cabs {
+    background-position: -154px -39px;
+    width: 25px;
+}
+
+.forex {
+    background-position: -132px -235px;
+}
+
+.charterFlights {
+    background-position: -122px -72px;
+}
+
+.activity {
+    background-position: -207px -72px;
+}
+
+/* ! flightDetails */
+.flightDetails {
+    z-index: 4;
+}
+
+.roundDiv {
+    width: 13px;
+    height: 13px;
+    border: 0.5px solid black;
+    margin-right: 6px;
+    margin-top: 2px;
+}
+
+.activeComp {
+    background: #eaf5ff;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 6px;
+}
+
+.activeRoundDiv {
+    border: 0.5px solid #008cff;
+    background-color: #008cff;
+}
+
+.spanWidth {
+    /* height: 45px; */
+    /* min-width: 80px;
+    max-width: 134px; */
+}
+
+/* Booking dates */
+.bookingDatesComps {
+    padding: 10px 19px;
+    border-right: 1px solid #f2f2f2;
+}
+
+/* ! fair type */
+.fairTypeList {
+    align-items: center;
+    padding: 6px;
+}
+
+.fairTypeList li {
+    background-color: #f2f2f2;
+    border-left: 1px solid white;
+    padding: 10px;
+}
+
+.selectedDiv {
+    background: #eaf5ff !important;
+    font-weight: 600;
+}
